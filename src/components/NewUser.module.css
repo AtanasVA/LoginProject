@@ -1,0 +1,62 @@
+.containter {
+  border: 1px solid lightgray;
+  background-color: aliceblue;
+  justify-content: center;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 15px;
+  margin-top: 5%;
+  text-align: center;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.username {
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  display: block;
+  position: relative;
+  text-align: left;
+  margin-bottom: 3px;
+  padding: 4px;
+  background-color: aliceblue;
+}
+.age {
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  display: block;
+  text-align: left;
+  padding: 5px;
+  margin-bottom: 3px;
+  background-color: aliceblue;
+}
+
+.username-field {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 4px;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+.age-field {
+  display: block;
+  width: 100%;
+  padding: 4px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+.submit {
+  text-align: center;
+  font-size: large;
+  display: block;
+  justify-content: left;
+  background-color: rgb(113, 29, 193);
+  color: white;
+  padding: 6px;
+  width: 7rem;
+}

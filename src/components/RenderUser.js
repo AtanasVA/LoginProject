@@ -1,26 +1,16 @@
 import React, { useState } from "react";
 import Container from "./UI/Container";
-import SingleUserData from "./SingleUserData";
-
-const users = [];
 
 const RenderUser = (props) => {
-  users.push(props);
-
-  if (users.length <= 1) {
-    return (
-      <Container>
-        <p>No entries found</p>
-      </Container>
-    );
-  }
-  console.log(users);
+  console.log(props.users);
   return (
     <Container>
       <ul>
-        {users.map(({ username, age }) => {
-          <SingleUserData username={username} age={age} />;
-        })}
+        {props.users.map((userObj) => (
+          <li key={userObj.id}>
+            {userObj.username} ({userObj.age}) years old
+          </li>
+        ))}
       </ul>
     </Container>
   );

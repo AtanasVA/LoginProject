@@ -1,0 +1,10 @@
+.submit {
+  text-align: center;
+  font-size: large;
+  display: block;
+  justify-content: left;
+  background-color: rgb(113, 29, 193);
+  color: white;
+  padding: 6px;
+  width: 7rem;
+}

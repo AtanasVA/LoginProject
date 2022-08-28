@@ -11,3 +11,19 @@
   width: 50%;
   border-radius: 20px;
 }
+.containter ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+.containter li {
+  text-align: left;
+  background-color: white;
+  border: 1px solid lightgray;
+  font-size: large;
+  font-weight: bold;
+  padding: 2px;
+  padding-left: 3px;
+  margin-bottom: 1rem;
+}

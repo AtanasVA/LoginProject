@@ -28,6 +28,7 @@
   background-color: white;
   border: 1px solid lightgray;
 }
+
 .age-field {
   display: block;
   width: 100%;
@@ -35,15 +36,4 @@
   margin-bottom: 10px;
   background-color: white;
   border: 1px solid lightgray;
-}
-
-.submit {
-  text-align: center;
-  font-size: large;
-  display: block;
-  justify-content: left;
-  background-color: rgb(113, 29, 193);
-  color: white;
-  padding: 6px;
-  width: 7rem;
 }
